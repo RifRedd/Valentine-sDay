@@ -1,0 +1,26 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+img {
+  height: 500px;
+  width: 500px;
+  max-height: 33%;
+  max-width: 33%;
+}
+
+.photo-row {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-height: 50vh;
+    padding: 10px;
+}
+
+p {
+    font-size: 48px;
+    color: red;
+}
